@@ -22,7 +22,7 @@
     
     UITextField *field = [[[UITextField alloc] initWithFrame:CGRectMake(100, 100, 100, 44)] autorelease];
     [self.view addSubview:field];
-    field.text = @"text";
+    field.text = NSLocalizedString(@"text", nil) ;
     
 }
 

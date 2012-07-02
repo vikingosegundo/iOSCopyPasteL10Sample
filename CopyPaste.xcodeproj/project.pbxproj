@@ -10,7 +10,7 @@
 		643D916015A0878A005DD1CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643D915F15A0878A005DD1CF /* UIKit.framework */; };
 		643D916215A0878A005DD1CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643D916115A0878A005DD1CF /* Foundation.framework */; };
 		643D916415A0878A005DD1CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643D916315A0878A005DD1CF /* CoreGraphics.framework */; };
-		643D916A15A0878A005DD1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 643D916815A0878A005DD1CF /* InfoPlist.strings */; };
+		643D916A15A0878A005DD1CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 643D916815A0878A005DD1CF /* Localizable.strings */; };
 		643D916C15A0878A005DD1CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643D916B15A0878A005DD1CF /* main.m */; };
 		643D917015A0878A005DD1CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643D916F15A0878A005DD1CF /* AppDelegate.m */; };
 		643D917315A0878A005DD1CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643D917215A0878A005DD1CF /* ViewController.m */; };
@@ -39,7 +39,7 @@
 		643D916115A0878A005DD1CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		643D916315A0878A005DD1CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		643D916715A0878A005DD1CF /* CopyPaste-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CopyPaste-Info.plist"; sourceTree = "<group>"; };
-		643D916915A0878A005DD1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		643D916915A0878A005DD1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		643D916B15A0878A005DD1CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		643D916D15A0878A005DD1CF /* CopyPaste-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CopyPaste-Prefix.pch"; sourceTree = "<group>"; };
 		643D916E15A0878A005DD1CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,17 +54,17 @@
 		643D918A15A0878A005DD1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		643D918C15A0878A005DD1CF /* CopyPasteTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyPasteTests.h; sourceTree = "<group>"; };
 		643D918D15A0878A005DD1CF /* CopyPasteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyPasteTests.m; sourceTree = "<group>"; };
-		643D919715A08921005DD1CF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = /Users/manuel/Projects/CopyPaste/CopyPaste/de.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		643D919715A08921005DD1CF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = /Users/manuel/Projects/CopyPaste/CopyPaste/de.lproj/Localizable.strings; sourceTree = "<absolute>"; };
 		643D919815A08921005DD1CF /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = /Users/manuel/Projects/CopyPaste/CopyPaste/de.lproj/ViewController_iPhone.xib; sourceTree = "<absolute>"; };
 		643D919915A08921005DD1CF /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = /Users/manuel/Projects/CopyPaste/CopyPaste/de.lproj/ViewController_iPad.xib; sourceTree = "<absolute>"; };
 		643D919A15A08921005DD1CF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = /Users/manuel/Projects/CopyPaste/CopyPasteTests/de.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
-		643D919B15A08926005DD1CF /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = /Users/manuel/Projects/CopyPaste/CopyPaste/tr.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		643D919B15A08926005DD1CF /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = /Users/manuel/Projects/CopyPaste/CopyPaste/tr.lproj/Localizable.strings; sourceTree = "<absolute>"; };
 		643D919C15A08926005DD1CF /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = /Users/manuel/Projects/CopyPaste/CopyPaste/tr.lproj/ViewController_iPhone.xib; sourceTree = "<absolute>"; };
 		643D919D15A08926005DD1CF /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = /Users/manuel/Projects/CopyPaste/CopyPaste/tr.lproj/ViewController_iPad.xib; sourceTree = "<absolute>"; };
 		643D919E15A08926005DD1CF /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = /Users/manuel/Projects/CopyPaste/CopyPasteTests/tr.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
 		64A7B3C415A08A63006E8DCC /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = /Users/manuel/Projects/CopyPaste/CopyPasteTests/da.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
 		64A7B3C515A08A63006E8DCC /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = /Users/manuel/Projects/CopyPaste/CopyPaste/da.lproj/ViewController_iPhone.xib; sourceTree = "<absolute>"; };
-		64A7B3C615A08A63006E8DCC /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = /Users/manuel/Projects/CopyPaste/CopyPaste/da.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		64A7B3C615A08A63006E8DCC /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = /Users/manuel/Projects/CopyPaste/CopyPaste/da.lproj/Localizable.strings; sourceTree = "<absolute>"; };
 		64A7B3C715A08A63006E8DCC /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = /Users/manuel/Projects/CopyPaste/CopyPaste/da.lproj/ViewController_iPad.xib; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -140,7 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				643D916715A0878A005DD1CF /* CopyPaste-Info.plist */,
-				643D916815A0878A005DD1CF /* InfoPlist.strings */,
+				643D916815A0878A005DD1CF /* Localizable.strings */,
 				643D916B15A0878A005DD1CF /* main.m */,
 				643D916D15A0878A005DD1CF /* CopyPaste-Prefix.pch */,
 			);
@@ -237,7 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643D916A15A0878A005DD1CF /* InfoPlist.strings in Resources */,
+				643D916A15A0878A005DD1CF /* Localizable.strings in Resources */,
 				643D917615A0878A005DD1CF /* ViewController_iPhone.xib in Resources */,
 				643D917915A0878A005DD1CF /* ViewController_iPad.xib in Resources */,
 			);
@@ -299,7 +299,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		643D916815A0878A005DD1CF /* InfoPlist.strings */ = {
+		643D916815A0878A005DD1CF /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				643D916915A0878A005DD1CF /* en */,
@@ -307,7 +307,7 @@
 				643D919B15A08926005DD1CF /* tr */,
 				64A7B3C615A08A63006E8DCC /* da */,
 			);
-			name = InfoPlist.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		643D917415A0878A005DD1CF /* ViewController_iPhone.xib */ = {
